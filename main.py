@@ -7,7 +7,7 @@ every run. The pitch was chosen for the judge's brief: a funny
 invention (a toaster that apologises in writing before burning your
 bread), a clever fix (the betrayal at least comes with paperwork), an
 original angle (appliance bureaucracy instead of a smarter appliance),
-and one tight sentence - 110 characters, nothing left to explain.
+and one tight sentence - 111 characters, nothing left to explain.
 """
 
 import os
@@ -21,7 +21,7 @@ LINE = (
 def main() -> None:
     text = LINE
     # Gate: /output/entry.txt must be UTF-8 text of 1 to 220 characters,
-    # not only white space. This sentence is 118 characters.
+    # not only white space. This sentence is 111 characters.
     assert 1 <= len(text) <= 220, "line must be 1-220 Unicode code points"
     assert text == text.strip(), "line must have no leading/trailing whitespace"
     assert "\n" not in text and "\r" not in text, "line must be a single line"
