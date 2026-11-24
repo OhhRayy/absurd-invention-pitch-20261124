@@ -7,7 +7,7 @@ every run. The pitch was chosen for the judge's brief: a funny
 invention (a toaster that apologises in writing before burning your
 bread), a clever fix (the betrayal at least comes with paperwork), an
 original angle (appliance bureaucracy instead of a smarter appliance),
-and one tight sentence - 118 characters, nothing left to explain.
+and one tight sentence - 111 characters, nothing left to explain.
 """
 
 import os
