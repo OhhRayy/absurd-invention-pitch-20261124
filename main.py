@@ -7,14 +7,14 @@ every run. The pitch was chosen for the judge's brief: a funny
 invention (a toaster that apologises in writing before burning your
 bread), a clever fix (the betrayal at least comes with paperwork), an
 original angle (appliance bureaucracy instead of a smarter appliance),
-and one tight sentence - 111 characters, nothing left to explain.
+and one tight sentence - 110 characters, nothing left to explain.
 """
 
 import os
 
 LINE = (
     "A toaster that files a formal apology before burning your bread, "
-    "so at least the betrayal comes with paperwork."
+    "so the betrayal at least comes with paperwork."
 )
 
 
